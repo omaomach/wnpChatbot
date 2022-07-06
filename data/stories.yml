@@ -39,8 +39,12 @@ stories:
     - intent: your_name
       entities:
       - name: "Joash"
+    - slot_was_set:
+      - name: "Joash"
     - action: utter_phone_number
     - intent: phone_number
       entities:
+      - number: "0728748441"
+    - slot_was_set:
       - number: "0728748441"
     - action: utter_thanks
