@@ -111,3 +111,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: play_video
+  examples: |
+    - please open the link
+    - play the video
+    - open the url link in browser
+    - show me the images
+    - link me to the page
+
+

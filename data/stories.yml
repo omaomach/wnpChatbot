@@ -29,6 +29,11 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: happy browser_links
+  steps:
+    - intent: play_video
+    - action: action_video
+
 # - story: name path
 #   steps:
 #     - intent: greet

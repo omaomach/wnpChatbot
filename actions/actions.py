@@ -18,7 +18,7 @@ class ActionVideo(Action):
         domain: "DomainDict",
     ) -> List[Dict[Text, Any]]:
         video_url="https://youtu.be/jj4BL9o3Q7o"
-        dispatcher.utter_message("wait... Playing your video.")
+        dispatcher.utter_message("wait... fetching the link.")
         webbrowser.open(video_url)
         return []
 
