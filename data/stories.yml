@@ -34,6 +34,11 @@ stories:
     - intent: play_video
     - action: action_video
 
+- story: happy fallback
+  steps:
+   - intent: out_of_scope
+   - action: utter_out_of_scope
+
 # - story: name path
 #   steps:
 #     - intent: greet
