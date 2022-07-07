@@ -125,4 +125,20 @@ nlu:
     - who is the president of Kenya
     - I want to order food
 
+- intent: faq/ask_docinfo
+  examples: |
+    - Can you link me to a doctor?
+    - are there doctors linked to this website?
+
+- intent: faq/ask_services
+  examples: |
+    - what services does this website offer
+    - can I but medicine through this website
+
+- intent: faq/ask_time
+  examples: |
+    - how long will it take for you to link me to a doctors
+    - I need to be linked to a doctors urgently
+    - I need a doctor
+
 
